@@ -1,36 +1,179 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<div align="center">
+  <br/>
 
-First, run the development server:
+  <h3><b>Portfolio</b></h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+</div>
+
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Portfolio](#-Porfolio)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    <!-- - [Key Features ](#key-features-) -->
+  <!-- - [🚀 Live Demo ](#-live-demo-)
+  - [Presentation ](#-presentation-) -->
+  <!-- - [💻 Getting Started ](#-getting-started-)
+    - [Install](#install)
+    - [Run tests](#run-tests) -->
+  - [👥 Authors ](#-authors-)
+  <!-- - [🔭 Future Features ](#-future-features-) -->
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  <!-- - [🙏 Acknowledgments ](#-acknowledgments-) -->
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Portfolio<a name="about-project"></a>
+
+**This portfolio website is user-friendly and designed to showcase my technical skills in both software development and UI/UX design**
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> This project was built using the following technologies:
+
+- Next.js
+- Typescript
+- Tailwind
+
+<!-- Features -->
+
+<!-- ### Key Features <a name="key-features"></a>
+
+- **Fetch news data**
+- **Filter the news on the Home page**
+- **Display news details in full details component**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+
+<a href="https://mob-news.onrender.com/">Live demo</a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
+<!-- ## Presentation <a name="presentation"></a>
+
+<a href="https://www.loom.com/share/aa7afc18fefe40a888e5a81addd670ca?sid=b43b4e0a-1f55-4e04-a40c-0fa2dd290338">Presentation</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- GETTING STARTED -->
+
+<!-- ## 💻 Getting Started <a name="getting-started"></a>
+
+> In order to start with this project do as follows:
+
+To get a local copy up and running, you can follow these simple steps: -->
+
+<!-- ### Install
+
+Clone the repository to your local machine using the following command:
+
+```sh
+  git clone https://github.com/Innocent259/top-news
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+ cd top-news
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install the necessary dependencies by running:
 
-## Learn More
+```sh
+ npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the local dev server using the command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+  npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The website will be live at `localhost:3000/`. You can now make changes to the project as desired and push them back to the repository using Git.
 
-## Deploy on Vercel
+That's it! With these simple steps, you should be able to get up and running with the Space Travellers project in no time. Happy coding!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Run tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To run tests, run the following command: -->
+
+
+<!-- 
+```sh
+  npm test
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+<!-- > Mention all of the collaborators of this project. -->
+👤 **Innocent Ndahimana**
+
+- GitHub: [@innocent259](https://github.com/Innocent259)
+- Twitter: [@innocentndahimana](https://www.linkedin.com/in/innocent259/)
+- LinkedIn: [@innocentndahimana](https://twitter.com/ndahimana259)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+<!-- ## 🔭 Future Features <a name="future-features"></a> -->
+
+<!-- > Describe 1 - 3 features you will add to the project. -->
+<!-- 
+- [ ] **Improve project styling**
+- [ ] **Responsive design: The project will be optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
+- [ ] **Add more testing cases**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+If you'd like to contribute to this project, feel free to fork the repository and make changes as you see fit. Please submit a pull request with your changes and I'll review them as soon as possible.
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project consider giving it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+>Credit goes to Nelson Sakwa on Behance for providing the original design idea. -->
+<!-- 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+
+<!-- FAQ (optional) -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
