@@ -20,7 +20,7 @@ const Intro: React.FC = () => {
                 <span className="font-bold"
                 >{"Full stack Developer "}
                 </span>
-                with 2 years of experience.
+                {"with 2 years of experience. "}
                 <br className="hidden md:block" />
                 <span>
                     I excel at creating dynamic and interactive web applications.
@@ -31,17 +31,17 @@ const Intro: React.FC = () => {
                 </span>
             </p>
             <div className="flex flex-col gap-2 md:flex-row items-center">
-                <Link href="/contact" className="bg-[#0E1D33] text-[#fff] font-semibold border rounded-full p-2">Contact me</Link>
-                <a href="/resumee.pdf" className="bg-[#fff] text-[#0E1D33] font-semibold border rounded-full p-2" target="_blank">Dowmload Cv</a>
+                <Link href="/contact" className="bg-[#0E1D33] text-[#fff] font-semibold border rounded-full p-2 px-4">Contact me</Link>
+                <a href="/resumee.pdf" className="bg-[#fff] text-[#0E1D33] font-semibold border rounded-full p-2 px-4 " target="_blank">Dowmload Cv</a>
                 <a
-                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center rounded-full cursor-pointer borderBlack"
+                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center rounded-full cursor-pointer"
                     href="https://github.com/Innocent259"
                     target="_blank"
                 >
                     <FaGithub />
                 </a>
                 <a
-                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center rounded-full cursor-pointer borderBlack"
+                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center rounded-full cursor-pointer"
                     href="https://www.linkedin.com/in/innocent259/"
                     target="_blank"
                 >
