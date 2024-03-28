@@ -1,7 +1,9 @@
-export default function Home() {
+import Intro from "./components/Intro";
+
+export default function Home() { 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Portolio
+    <main className="flex flex-col items-center gap-6 p-12">
+      <Intro />
     </main>
   );
 }
