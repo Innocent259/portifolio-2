@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Innocent | Portfolio",
+  title: "Innocent|Personnal Portfolio",
   description: "Innocent is a full stack developer with 2 years of experience"
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col justify-between bg-gray-50 text-gray-950`}>
         <Navbar />
         {children}
         <Footer />
