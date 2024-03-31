@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion"
 import { MdOutlineMenu, MdClose } from "react-icons/md";
+import { links } from "@/lib/data"; 
 
 const Navbar: React.FC = () => {
 
@@ -35,12 +36,9 @@ const Navbar: React.FC = () => {
             className="flex flex-col gap-4 bg-[#ddd] p-4 rounded-sm"
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            >
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/skills">Skills</Link>
-              <Link href="/experience">Experience</Link>
-              <Link href="/contact">Contact</Link>
+            >{
+              links.map(link => <Link key={link.hash} href={link.hash}>{link.name}</Link>)
+            }
             </motion.div>
           )
         }
