@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion"
 import { MdOutlineMenu, MdClose } from "react-icons/md";
 
 const Navbar: React.FC = () => {
@@ -30,23 +31,31 @@ const Navbar: React.FC = () => {
         )}
         {
           menu && (
-            <div className="flex flex-col gap-4 bg-[#ddd] p-4 rounded-sm">
+            <motion.div 
+            className="flex flex-col gap-4 bg-[#ddd] p-4 rounded-sm"
+            initial={{ x: -50, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            >
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
               <Link href="/skills">Skills</Link>
               <Link href="/experience">Experience</Link>
               <Link href="/contact">Contact</Link>
-            </div>
+            </motion.div>
           )
         }
       </div>
-      <div className="hidden md:flex gap-4 justify-center bg-[#ddd] w-fit mx-auto p-4 rounded-full">
+      <motion.div 
+      className="hidden md:flex gap-4 bg-[#ddd] w-fit mx-auto p-4 rounded-full"
+      initial={{ y: -50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      >
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/skills">Skills</Link>
         <Link href="/experience">Experience</Link>
         <Link href="/contact">Contact</Link>
-      </div>
+      </motion.div>
     </nav>
   )
 }
