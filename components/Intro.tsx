@@ -32,7 +32,7 @@ const Intro: React.FC = () => {
             </p>
             <div className="flex flex-col gap-2 md:flex-row items-center">
                 <Link href="/contact" className="bg-[#0E1D33] text-[#fff] font-semibold border rounded-full p-2 px-4">Contact me</Link>
-                <a href="/resumee.pdf" className="bg-[#fff] text-[#0E1D33] font-semibold border rounded-full p-2 px-4 " target="_blank">Dowmload Cv</a>
+                <a href="/resumee.pdf" className="bg-[#fff] text-[#0E1D33] font-semibold border rounded-full p-2 px-4 " target="_blank">Download CV{" "}</a>
                 <a
                     className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center rounded-full cursor-pointer"
                     href="https://github.com/Innocent259"
