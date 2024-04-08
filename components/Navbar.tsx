@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="pt-6">
+    <nav className="pt-6 sticky top-0 z-10 bg-green-700">
       <div className="md:hidden p-2 text-3xl">
         {menu ? (
           <button
